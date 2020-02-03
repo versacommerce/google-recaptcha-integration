@@ -1,0 +1,14 @@
+{% if template == "signup" %}
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+  <script>
+    $(document).ready( function(){
+      $(`<div class="g-recaptcha" data-sitekey="{{integration['DATA_SITE_KEY']}}" data-callback="btnEnable" style="padding-bottom: 1em"></div>`).insertBefore(".signup_customer_button")
+      $('.signup_customer_button').attr('disabled', true);
+    })
+
+    function btnEnable() {
+      $('.signup_customer_button').removeAttr('disabled');
+    };
+  </script>
+{% endif%}
