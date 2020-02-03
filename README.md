@@ -29,7 +29,7 @@ This file is empty because it's not needed for this integration.
 ## Configuration options for this integration.
 | Label                   | Key            | Default Value     | Validates presence? |
 | ----------------------- | -------------- | ----------------- | :-----------------: |
-| Google Data Site Key    | DATA_SITE_KEY  | Default value     |          √          |
+| Google Data Site Key    | DATA_SITE_KEY  |                   |          √          |
 
 
 ##  Customization
