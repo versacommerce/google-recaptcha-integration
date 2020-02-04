@@ -1,5 +1,9 @@
 [<img src="versacommerce.png" width="250px" align="right" alt="VersaCommerce.de">](https://www.versacommerce.de/?utm_source=github)
+<<<<<<< HEAD
 [<img src="recaptcha.png" width="250px" align="right" alt="developers.google.com/recaptcha">](https://developers.google.com/recaptcha/?utm_source=www.versacommerce.de)
+=======
+[<img src="recaptcha.png" width="90px" align="right" alt="developers.google.com/recaptcha">](https://developers.google.com/recaptcha)
+>>>>>>> a5af9f7babd5f283affc440e0261304099d00d0d
 
 [VersaCommerce] [integration] [javascript] [reCAPTCHA]
 
@@ -18,7 +22,7 @@ This integration is pre-installed with every VersaCommerce store. To enable it, 
 ## Files
 
 ### head.liquid
-To use this Integration this file is used in the `<head>` element.
+All code for this integration takes places in head.liquid, which is injected inside ```<head>...</head>``` of the rendered html document.
 
 ### body.liquid
 This file is empty because it's not needed for this integration.
@@ -29,7 +33,7 @@ This file is empty because it's not needed for this integration.
 ## Configuration options for this integration.
 | Label                   | Key            | Default Value     | Validates presence? |
 | ----------------------- | -------------- | ----------------- | :-----------------: |
-| Google Data Site Key    | DATA_SITE_KEY  | Default value     |          √          |
+| Google Data Site Key    | DATA_SITE_KEY  |                   |          √          |
 
 
 ##  Customization
