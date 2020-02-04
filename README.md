@@ -1,5 +1,5 @@
 [<img src="versacommerce.png" width="250px" align="right" alt="VersaCommerce.de">](https://www.versacommerce.de/?utm_source=github)
-[<img src="recaptcha.png" width="250px" align="right" alt="developers.google.com/recaptcha">](https://developers.google.com/recaptcha)
+[<img src="recaptcha.png" width="250px" align="right" alt="developers.google.com/recaptcha">](https://developers.google.com/recaptcha/?utm_source=www.versacommerce.de)
 
 [VersaCommerce] [integration] [javascript] [reCAPTCHA]
 
